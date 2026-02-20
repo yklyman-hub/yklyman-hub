@@ -19,53 +19,36 @@ gtag('js', new Date());
 gtag('config', 'G-3K5NM17HDN');
 </script>
 
+<!-- reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body>
 
-<!-- Navigation -->
 <div class="topbar">
   <div class="container nav">
     <div class="brand">
       <div class="mark"></div>
-      <div class="brand-block">
-        <div class="brand-title">Couples Coaching TLV</div>
-        <div class="brand-sub">אימון זוגי יוקרתי • תל אביב</div>
-      </div>
+      <div class="brand-title">Couples Coaching TLV</div>
     </div>
   </div>
 </div>
 
-<!-- Contact Section -->
 <section class="section container">
   <div class="h2">קביעת פגישת היכרות פרטית</div>
 
   <form action="https://formspree.io/f/mreaaoag" method="POST">
 
-    <input 
-      type="text" 
-      name="name" 
-      placeholder="שם מלא" 
-      required>
+    <input type="text" name="name" placeholder="שם מלא" required>
+    <input type="email" name="email" placeholder="אימייל" required>
+    <input type="tel" name="phone"
+           placeholder="מספר טלפון (לדוגמה: 058-123-4567)"
+           pattern="[0-9+\-\s]{9,15}" required>
+    <textarea name="message" rows="5"
+              placeholder="כיצד נוכל לעזור?" required></textarea>
 
-    <input 
-      type="email" 
-      name="email" 
-      placeholder="אימייל" 
-      required>
-
-    <!-- PHONE FIELD -->
-    <input 
-      type="tel" 
-      name="phone" 
-      placeholder="מספר טלפון (לדוגמה: 058-123-4567)" 
-      pattern="[0-9+\-\s]{9,15}" 
-      required>
-
-    <textarea 
-      name="message" 
-      rows="5" 
-      placeholder="כיצד נוכל לעזור?" 
-      required></textarea>
+    <!-- RECAPTCHA -->
+    <div class="g-recaptcha" data-sitekey="6Lf3LXIsAAAAAKBGlP300-VBHvKsoOOK-dv__Vmc"></div>
 
     <button type="submit">שליחה</button>
 
@@ -73,17 +56,11 @@ gtag('config', 'G-3K5NM17HDN');
 
 </section>
 
-<footer>
-© 2026 Couples Coaching TLV | תל אביב, ישראל
-</footer>
+<footer>© 2026 Couples Coaching TLV</footer>
 
-<!-- WhatsApp Floating Button -->
-<a class="whatsapp-float" 
-   href="https://wa.me/972587972733" 
-   target="_blank" 
-   aria-label="WhatsApp">
-💬
-</a>
+<a class="whatsapp-float"
+   href="https://wa.me/972587972733"
+   target="_blank">💬</a>
 
 </body>
 </html>
