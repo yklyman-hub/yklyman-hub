@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Couples Coaching TLV | אימון זוגי יוקרתי בתל אביב</title>
+<meta name="description" content="Couples Coaching TLV היא קליניקה יוקרתית לאימון זוגי בתל אביב המסייעת לשפר תקשורת, לחזק אמון ולהעמיק חיבור רגשי.">
+<meta name="keywords" content="אימון זוגי תל אביב, זוגיות תל אביב, ייעוץ זוגי תל אביב, אימון זוגי יוקרתי, relationship coaching Israel">
+<meta name="author" content="Couples Coaching TLV">
+
+<link rel="canonical" href="https://couplescoachingtlv.com/index-he.html">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3K5NM17HDN"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3K5NM17HDN');
+</script>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container nav">
+    <div class="brand">
+      <div class="mark"></div>
+      <div class="brand-block">
+        <div class="brand-title">Couples Coaching TLV</div>
+        <div class="brand-sub">אימון זוגי יוקרתי • תל אביב</div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="index-he.html">בית</a>
+      <a href="services-he.html">שירותים</a>
+      <a href="about-he.html">אודות</a>
+      <a href="contact-he.html">יצירת קשר</a>
+      <a href="index.html">English</a>
+    </div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="container">
+    <div class="kicker"><span class="dot"></span> פרטי • מובנה • יוקרתי</div>
+    <h1>אימון זוגי יוקרתי בתל אביב</h1>
+    <p class="lede">
+      קליניקה פרימיום בתל אביב המסייעת לזוגות לשפר תקשורת, לבנות אמון מחדש
+      ולהעמיק חיבור רגשי — בסביבה דיסקרטית וממוקדת תוצאות.
+    </p>
+    <div class="cta-row">
+      <a class="btn" href="contact-he.html">קביעת פגישת היכרות</a>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="h2">חוויות לקוחות</div>
+
+  <div class="testimonial">
+    “הנחיה חכמה ומובנית ששינתה את הדרך שבה אנחנו מתקשרים.”
+    <br><br><strong>— דניאל ומאיה, תל אביב</strong>
+  </div>
+
+  <div class="testimonial">
+    “החוויה הכי מקצועית ודיסקרטית שחווינו בתחום הזוגיות.”
+    <br><br><strong>— עמית ונועה, הרצליה</strong>
+  </div>
+
+  <div class="testimonial">
+    “חזרנו לקרבה רגשית בצורה רגועה ופרקטית.”
+    <br><br><strong>— ליאור ושני, רמת גן</strong>
+  </div>
+</section>
+
+<footer>© 2026 Couples Coaching TLV | תל אביב, ישראל</footer>
+
+<a class="whatsapp-float" href="https://wa.me/972587972733" target="_blank">💬</a>
+
+</body>
+</html>
