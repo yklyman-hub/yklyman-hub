@@ -1,17 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Couples Coaching Tel Aviv</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: Arial; text-align: center; padding: 60px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Couples Coaching Tel Aviv</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #f8f9fb;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6a85b6, #bac8e0);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+section {
+    padding: 70px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #6a85b6;
+}
+
+.about {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.testimonial {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+input, textarea {
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+button {
+    padding: 15px;
+    background: #6a85b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #556ea8;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #6a85b6;
+    color: white;
+    font-size: 14px;
+}
+</style>
 </head>
+
 <body>
-  <h1>Couples Coaching TLV</h1>
-  <p>Couples Coaching in TLV</p>
-  <p>Contact: yklyman@gmail.com</p>
-  <p>#Hadaristhebestest</p>
+
+<header>
+    <h1>Couples Coaching Tel Aviv</h1>
+    <p>Helping couples reconnect, communicate effectively, and build lasting, fulfilling relationships.</p>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Communication Coaching</h3>
+            <p>Develop tools to reduce conflict and improve understanding.</p>
+        </div>
+        <div class="card">
+            <h3>Conflict Resolution</h3>
+            <p>Structured guidance to resolve recurring disagreements constructively.</p>
+        </div>
+        <div class="card">
+            <h3>Relationship Growth</h3>
+            <p>Strengthen emotional connection and rebuild trust.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>About the Clinic</h2>
+    <div class="about">
+        <p>
+            At Couples Coaching Tel Aviv, we provide structured, supportive guidance for couples
+            seeking stronger communication, deeper intimacy, and healthier long-term partnerships.
+            Our approach blends practical tools, emotional insight, and structured coaching frameworks.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>What Clients Say</h2>
+    <div class="testimonial">
+        “We learned tools that completely changed how we communicate.”
+    </div>
+    <div class="testimonial">
+        “Structured, practical, and deeply supportive coaching.”
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+
+    <!-- Replace YOUR_FORM_ID with your Formspree form ID -->
+    <form action="https://formspree.io/f/mreaaoag" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+        <button type="submit">Book a Consultation</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 Harmony Couples Coaching | All Rights Reserved
+</footer>
+
 </body>
 </html>
