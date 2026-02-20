@@ -5,44 +5,85 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Contact | Couples Coaching TLV</title>
-<meta name="description" content="Book a consultation with Couples Coaching TLV in Tel Aviv.">
+<meta name="description" content="Book a private consultation with Couples Coaching TLV in Tel Aviv.">
 
 <link rel="canonical" href="https://couplescoachingtlv.com/contact.html">
 <link rel="stylesheet" href="assets/css/style.css">
 
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3K5NM17HDN"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3K5NM17HDN');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3K5NM17HDN');
 </script>
+
 </head>
 <body>
 
+<!-- Navigation -->
 <div class="topbar">
   <div class="container nav">
     <div class="brand">
       <div class="mark"></div>
-      <div class="brand-title">Couples Coaching TLV</div>
+      <div class="brand-block">
+        <div class="brand-title">Couples Coaching TLV</div>
+        <div class="brand-sub">Luxury Relationship Coaching • Tel Aviv</div>
+      </div>
     </div>
   </div>
 </div>
 
+<!-- Contact Section -->
 <section class="section container">
-  <div class="h2">Book a Consultation</div>
+  <div class="h2">Book a Private Consultation</div>
 
   <form action="https://formspree.io/f/mreaaoag" method="POST">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <textarea name="message" rows="5" placeholder="How can we help?" required></textarea>
+
+    <input 
+      type="text" 
+      name="name" 
+      placeholder="Full Name" 
+      required>
+
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Email Address" 
+      required>
+
+    <!-- NEW PHONE FIELD -->
+    <input 
+      type="tel" 
+      name="phone" 
+      placeholder="Phone Number (e.g. 058-123-4567)" 
+      pattern="[0-9+\-\s]{9,15}" 
+      required>
+
+    <textarea 
+      name="message" 
+      rows="5" 
+      placeholder="How can we help?" 
+      required></textarea>
+
     <button type="submit">Send Message</button>
+
   </form>
+
 </section>
 
-<footer>© 2026 Couples Coaching TLV</footer>
+<footer>
+© 2026 Couples Coaching TLV | Tel Aviv, Israel
+</footer>
 
-<a class="whatsapp-float" href="https://wa.me/972587972733" target="_blank">💬</a>
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp-float" 
+   href="https://wa.me/972587972733" 
+   target="_blank" 
+   aria-label="WhatsApp">
+💬
+</a>
 
 </body>
 </html>
