@@ -19,8 +19,8 @@ gtag('js', new Date());
 gtag('config', 'G-3K5NM17HDN');
 </script>
 
-<!-- reCAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- reCAPTCHA v3 -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf3LXIsAAAAAKBGlP300-VBHvKsoOOK-dv__Vmc"></script>
 
 </head>
 <body>
@@ -37,22 +37,19 @@ gtag('config', 'G-3K5NM17HDN');
 <section class="section container">
   <div class="h2">קביעת פגישת היכרות פרטית</div>
 
-  <form action="https://formspree.io/f/mreaaoag" method="POST">
+  <form id="contact-form"
+        action="https://formspree.io/f/mreaaoag"
+        method="POST">
 
     <input type="text" name="name" placeholder="שם מלא" required>
-
     <input type="email" name="email" placeholder="אימייל" required>
-
     <input type="tel" name="phone"
            placeholder="מספר טלפון (לדוגמה: 058-123-4567)"
            pattern="[0-9+\-\s]{9,15}" required>
-
     <textarea name="message" rows="5"
               placeholder="כיצד נוכל לעזור?" required></textarea>
 
-    <!-- reCAPTCHA -->
-    <div class="g-recaptcha"
-         data-sitekey="6Lf3LXIsAAAAAKBGlP300-VBHvKsoOOK-dv__Vmc"></div>
+    <input type="hidden" name="g-recaptcha-response" id="recaptchaToken">
 
     <button type="submit">שליחה</button>
 
@@ -67,6 +64,14 @@ gtag('config', 'G-3K5NM17HDN');
 <a class="whatsapp-float"
    href="https://wa.me/972587972733"
    target="_blank">💬</a>
+
+<script>
+grecaptcha.ready(function() {
+  grecaptcha.execute('6Lf3LXIsAAAAAKBGlP300-VBHvKsoOOK-dv__Vmc', {action: 'submit'}).then(function(token) {
+    document.getElementById('recaptchaToken').value = token;
+  });
+});
+</script>
 
 </body>
 </html>
