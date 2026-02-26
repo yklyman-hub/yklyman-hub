@@ -268,6 +268,11 @@ footer{
   color:var(--ink);
 }
 
+.cta-section{
+  padding: 80px 0 120px;
+  text-align: center;
+}
+
 /* Mobile Responsive */
 @media (max-width: 900px){
   .about-split{
